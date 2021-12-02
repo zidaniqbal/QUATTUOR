@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/cart.css">
+
+  <title>Keranjang Belanja Anda</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark flex-top py-3" style="background-color: #5691ff;;">
+    <div class="container">
+      <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+        <img src="image/logo.png" alt="" height="70">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link fs-5" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Kategori
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="dapur.html">Dapur</a></li>
+              <li><a class="dropdown-item" href="kamartidur.html">Kamar Tidur</a></li>
+              <li><a class="dropdown-item" href="ruangtamu.html">Ruang tamu</a></li>
+              <li><a class="dropdown-item" href="teras.html">Teras</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="Store Location.html">Store Location</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="About Us.html">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="Daftar.html">Log In/Sign Up</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <div class="icon mt-2">
+
+          <li class="d-flex">
+            <a class="nav-link fs-5" href="keranjang.html"><img width="auto"
+                src="https://img.icons8.com/small/32/000000/shopping-cart.png"></a>
+          </li>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <div class="container">
+    <div class="row" style="margin-top: 150px;margin-bottom: 50px;">
+      <aside class="col-lg-9">
+        <div class="card">
+          <div class="table-responsive">
+            <table class="table table-borderless table-shopping-cart">
+              <thead class="text-muted">
+                <tr class="small text-uppercase">
+                  <th scope="col">Produk</th>
+                  <th scope="col" width="120">Kuantitas</th>
+                  <th scope="col" width="120">Harga</th>
+                  <th scope="col" class="text-right d-none d-md-block" width="200"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <figure class="itemside align-items-center">
+                      <div class="aside"><img src="image/dapur/dapur1.png" class="img-sm"></div>
+                      <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">JIASHI Penanak Nasi
+                          Electric</a>
+                        <p class="text-muted small">Brand: JIASHI</p>
+                      </figcaption>
+                    </figure>
+                  </td>
+                  <td> <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select> </td>
+                  <td>
+                    <div class="price-wrap"> <var class="price">Rp. 253.400</var></div>
+                  </td>
+                  <td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist" title="" href=""
+                      class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart"></i></a> <a
+                      href="" class="btn btn-light" data-abc="true"> Hapus</a> </td>
+                </tr>
+                <tr>
+                  <td>
+                    <figure class="itemside align-items-center">
+                      <div class="aside"><img src="image/kamar_tidur/kati1.png" class="img-sm"></div>
+                      <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Magic Wardrobe
+                          Lemari</a>
+                        <p class="text-muted small">Brand: Wardrobe </p>
+                      </figcaption>
+                    </figure>
+                  </td>
+                  <td> <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select> </td>
+                  <td>
+                    <div class="price-wrap"> <var class="price">Rp. 348.500</var> </div>
+                  </td>
+                  <td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist" title="" href=""
+                      class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart"></i></a> <a
+                      href="" class="btn btn-light btn-round" data-abc="true"> Hapus</a> </td>
+                </tr>
+                <tr>
+                  <td>
+                    <figure class="itemside align-items-center">
+                      <div class="aside"><img src="image/ruang_tamu/ruta1.png" class="img-sm"></div>
+                      <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">LACK Meja tamu</a>
+                        <p class="small text-muted">Brand: Cantabil</p>
+                      </figcaption>
+                    </figure>
+                  </td>
+                  <td> <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select> </td>
+                  <td>
+                    <div class="price-wrap"> <var class="price">Rp. 999.000 </var> </div>
+                  </td>
+                  <td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist" title="" href=""
+                      class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart"></i></a> <a
+                      href="" class="btn btn-light btn-round" data-abc="true"> Hapus</a> </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </aside>
+      <aside class="col-lg-3">
+        <div class="card mb-3">
+          <div class="card-body">
+            <form>
+              <div class="form-group"> <label>Punya Kupon?</label>
+                <div class="input-group"> <input type="text" class="form-control coupon" name=""
+                    placeholder="Kode Kupon"> <span class="input-group-append"> <button
+                      class="btn btn-primary btn-apply coupon"
+                      style="margin-left: 5px;padding: 10px 10px;">Apply</button> </span> </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <dl class="dlist-align">
+              <dt>Total Harga : &nbsp;</dt>
+              <dd class="text-right ml-3">Rp. 2.346.500</dd>
+            </dl>
+            <dl class="dlist-align">
+              <dt>Discount : &nbsp;</dt>
+              <dd class="text-right text-danger ml-3">- Rp. 234.650</dd>
+            </dl>
+            <dl class="dlist-align">
+              <dt>Total : &nbsp;</dt>
+              <dd class="text-right text-dark b ml-3"><strong> Rp. 2.111.850</strong></dd>
+            </dl>
+            <hr> <a href="#" class="btn btn-out btn-primary btn-square btn-main" data-abc="true"> Lakukan Pembelian </a>
+            <a href="#" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Lanjut Belanja</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer class="bg-dark py-5">
+    <div class="container">
+      <div class="row text-white g-4">
+        <div class="col-md-6 col-lg-3 ms-5">
+          <h5 class="fw-light">Links</h5>
+          <ul class="list-unstyled">
+            <li class="my-3">
+              <a href="index.html" class="text-white text-decoration-none text-muted">
+                <i class="fas fa-chevron-right me-1"></i> Home
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="About Us.html" class="text-white text-decoration-none text-muted">
+                <i class="fas fa-chevron-right me-1"></i> About
+              </a>
+            </li>
+            <li class="my-3">
+              <a href="Store Location.html" class="text-white text-decoration-none text-muted">
+                <i class="fas fa-chevron-right me-1"></i> Location
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-4 ms-5">
+          <h5 class="fw-light mb-3">Contact Us</h5>
+          <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+            <span class="me-3">
+              <i class="fas fa-map-marked-alt"></i>
+            </span>
+            <span class="fw-light">
+              Lenteng Agung, Jakarta Timur, Indonesia
+            </span>
+          </div>
+          <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+            <span class="me-3">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="fw-light">
+              kelompok1@gmail.com
+            </span>
+          </div>
+          <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+            <span class="me-3">
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <span class="fw-light">
+              0821 345 456
+            </span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 ms-5">
+          <h5 class="fw-light mb-3">Follow Us</h5>
+          <div>
+            <ul class="list-unstyled d-flex">
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                  <i class="fab fa-pinterest"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+
+  <!-- copyright -->
+  <div class="copyright text-center">
+    <p>Developed by Kelompok 1 Copyright <i class="far fa-copyright"></i> 2021 </p>
+  </div>
+  <!-- end copyright -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
